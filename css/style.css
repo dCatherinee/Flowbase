@@ -1,0 +1,372 @@
+body{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/* ==================== HEADER ==================== */
+
+.header{
+    position: absolute;
+    left: 0px;
+    top: 32px;
+    width: 100%;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav__a{
+    padding: 15px 40px;
+
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-nav__btn{
+    padding: 14px 40px;
+
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #000;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    background: #FFAC12;
+    border-radius: 0px 18px 0px 0px;
+}
+
+@media (max-width: 1420px) {
+    .header-nav__a{
+        padding: 15px 25px;
+    }
+    .header-nav__btn{
+        padding: 15px 25px;
+    }
+    
+}
+
+@media (max-width: 1295px) {
+    
+}
+
+@media (max-width: 990px) {
+
+}
+
+/* ==================== CLOSSE HEADER ==================== */
+
+/* ==================== LOGO ==================== */
+
+.logo{
+
+}
+
+/* ==================== CLOSE LOGO ==================== */
+
+/* ==================== INTRO ==================== */
+
+.intro{
+    width: 100%;
+    height: 850px;
+    background-image: url('../img/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro::after{
+    content: "";
+	display: block;    
+	width: 100%;
+	height: 100%;   
+	top: 0;      
+	left: 0;   
+    background: linear-gradient(198.73deg, rgba(0, 0, 0, 0.0001) 15.31%, rgba(0, 0, 0, 0.837986) 67.37%);
+}
+
+.intro__content{
+    position: absolute;
+    width: 520px;
+    top: 200px;
+}
+
+.intro__down{
+    position: absolute;
+    bottom: 0px;
+    top: 750px;
+    width: 1069px;
+    height: 100px;
+    background-color: #FFFFFF;
+}
+
+.intro-btn-position{
+    position: absolute;
+    left: 40px;
+    top: 37px;
+}
+
+/* ==================== INTRO CLOSE ==================== */
+
+/* ==================== SECTION ABOUT ==================== */
+
+.about{
+    margin-top: 150px;
+}
+
+.about__content{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.content__img{
+    filter: drop-shadow(0px 62px 54px rgba(0, 0, 0, 0.3));
+
+    flex: 1;
+}
+
+.content__text{
+    width: 474px;
+    
+    flex: 1;
+}
+
+/* ==================== SECTION ABOUT CLOSE ==================== */
+
+/* ==================== SECTION HOUSES ==================== */
+
+.houses{
+    background-color: #F5F5F5;
+
+    margin-top: -50px;
+}
+
+.houses__content{
+    padding-top: 200px;
+}
+
+.houses__search-block{
+
+}
+
+.houses-search__btn-block{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+
+    margin-top: 60px;
+}
+
+.houses-search__btn{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+
+    width: 266px;
+    height: 120px;
+    text-align: left;
+    padding-left: 30px;
+
+    color: #000000;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    background: #fff;
+
+    border: none;
+}
+
+.houses-search__btn-left-radius{
+    border-radius: 25px 0px 0px 25px;
+}
+
+.houses-search__btn-right-radius{
+    border-radius: 0px 25px 25px 0px;
+}
+
+.houses__carts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 46px;
+}
+
+.cart-houses__cart{
+    background-color: #fff;
+
+    width: 336px;
+    height: 418px;
+
+    border-radius: 25px;
+    box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
+
+    margin-top: 30px;
+}
+
+.cart-houses__img{
+}
+
+.cart-houses__title{
+    padding: 30px;
+}
+
+.cart-houses__info{
+    width: 336px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    border-top: 1px solid #E4E4E4;
+}
+
+.cart-houses__info-block{
+ 
+}
+
+.stick{
+    width: 1px;
+    height: 60px;
+
+    background-color: #E4E4E4;
+}
+
+/* ==================== SECTION HOUSES CLOSE ==================== */
+
+/* ==================== BUTTON ==================== */
+
+.btn{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #000000;
+
+    padding: 14px 40px;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    background: #fff;
+    border-radius: 0px 18px 0px 0px;
+}
+
+.btn-off-bg{
+    background: none;
+    padding: 0px;
+    border-radius: 0px
+}
+
+.btn-black{
+    background: #000;
+    color: #fff;
+}
+
+.btn-orange{
+    background: #FFAC12;
+    color: #000;
+}
+
+/* ==================== BUTTON CLOSE ==================== */
+
+/* ==================== MORE ==================== */
+
+h1{
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+
+    color: #FFFFFF;
+}
+
+p{
+    font-weight: normal;
+    font-size: 20px;
+
+    color: #FFFFFF;
+    opacity: 0.6;
+
+    margin-bottom: 40px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+h2::before{
+    content: '';
+    display: block;
+
+    width: 169px;
+    height: 4px;
+
+    margin-bottom: 17px;
+
+    border-radius: 2px;
+    background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+}
+
+h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.text-color__black{
+    color: #000;
+}
+
+.border-rigth{
+    border-radius: 0px 57px 0px 0px;
+}
+
+.border-left{
+    border-radius: 57px 0px 0px 0px;
+}
+
+  /* ==================== CLOSE MORE ==================== */
