@@ -92,13 +92,20 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ==================== CLOSSE HEADER ==================== */
 
-/* ==================== LOGO ==================== */
+/* ==================== LOGO & SOCIAL ==================== */
 
 .logo{
 
 }
 
-/* ==================== CLOSE LOGO ==================== */
+.social{
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ==================== CLOSE LOGO & SOCIAL ==================== */
 
 /* ==================== INTRO ==================== */
 
@@ -179,6 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .houses__content{
     padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .houses__search-block{
@@ -276,6 +284,88 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ==================== SECTION HOUSES CLOSE ==================== */
 
+/* ==================== SECTION FOOTER ==================== */
+
+.footer{
+    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 45.25%);
+}
+
+.footer__work{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 80px;
+}
+
+.long-stick{
+    display: block;
+
+    width: 1069px;
+    height: 1px;
+
+    margin-top: 50px;
+
+    background: #FFFFFF;
+    opacity: 0.1;
+}
+
+.title-footer{
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 55px;
+
+    color: #fff;
+}
+
+.footer__content{
+    margin-top: 60px;
+
+    padding-bottom: 168px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-content__block-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content__block-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-block2-title{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #fff;
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-block2-p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #979797;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    margin-top: 10px;
+}
+
+/* ==================== SECTION FOOTER CLOSE ==================== */
+
 /* ==================== BUTTON ==================== */
 
 .btn{
@@ -330,6 +420,10 @@ p{
     opacity: 0.6;
 
     margin-bottom: 40px;
+}
+
+.margin-bot-10{
+    margin-bottom: 10px;
 }
 
 h2{
