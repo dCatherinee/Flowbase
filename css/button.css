@@ -1,0 +1,49 @@
+.btn{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #000000;
+
+    padding: 14px 40px;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    background: #fff;
+    border-radius: 0px 18px 0px 0px;
+}
+
+.btn-off-bg{
+    background: none;
+    padding: 0px;
+    border-radius: 0px
+}
+
+.btn-black{
+    background: #000;
+    color: #fff;
+
+    transition: 0.3s;
+}
+
+.btn-black:hover{
+    background-color: #FFAC12;
+    color: #000;
+
+    transition: 0.3s;
+}
+
+.btn-orange{
+    background: #FFAC12;
+    color: #000;
+
+    transition: 0.3s;
+}
+
+.btn-orange:hover{
+    background: #000;
+    color: #fff;
+
+    transition: 0.3s;
+}
